@@ -1,5 +1,18 @@
 /* Regular */
 @font-face {
+    font-family: 'lacuna_italicregular';
+    src: url('../../lacuna-italic-webfont.eot');
+    src: url('../../lacuna-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../lacuna-italic-webfont.woff2') format('woff2'),
+    url('../../lacuna-italic-webfont.woff') format('woff'),
+    url('../../lacuna-italic-webfont.ttf') format('truetype'),
+    url('../../lacuna-italic-webfont.svg#lacuna_italicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'League Gothic';
     src: url('../../leaguegothic-regular-webfont.eot');
     src: url('../../leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -28,9 +41,7 @@
 .bi-circle-fill{
     color: #f0bd01 !important;
 }
-.section1{
-    background-color: #3a0a1d;
-}
+
 .acc{
     margin-right: 5rem;
 }
@@ -47,15 +58,24 @@
 .section1{
     height: 23.125rem;
     padding-top: 7rem;
+    background-color: #3a0a1d;
 }
+.section1-icon1{
+    margin-left: 1.25rem;
+    margin-bottom: 1.625rem;
+}
+.section1 p{
+
+    font-family: 'lacuna_italicregular';
+
+}
+
 .s21{
     padding-top:  8.188rem;
 }
-.Fleure{
-    height: 39.688rem;
-}
 .fa-quote-left{
     color: #616161 !important;
+    font-size:3.125rem !important;
 }
 .more{
     margin-left: 25.438rem;
@@ -65,18 +85,13 @@
 .p2{
     width: 31.25rem;
 }
-.more1{
-    margin-bottom: 3.938rem;
-}
 
 
 
 
 
-footer{
-    height: 10.938rem;
-    background-color: #e4bc01;
-}
+
+
 div{
     color: #31332e;
 }
@@ -90,12 +105,7 @@ h2{
     font-size: 20rem;
     font-family: 'League Gothic';
 }
-.bi{
-    border-radius: 50em;
-    color :#ffffff;
-    font-size: 2rem;
-    margin-left: 0.938rem;
-}
+
 .round.round-lg {
     height: 40px;
     width: 40px;
@@ -103,4 +113,49 @@ h2{
     -moz-border-radius: 20px;
     border-radius: 20px;
     font-size: 1.5em;
+}
+.bi-circle-fill{
+    color: #f0bd01 !important;
+    font-size: 1.75rem;
+}
+.btn-more{
+    margin-left: 25.438rem;
+    background-color: #f0bd01 !important;
+    width: 5.313rem;
+    border:0;
+}
+.section2{
+    background-color: #fafafa;
+}
+.section2-bloc1{
+    padding-top: 8.188rem;
+    margin-bottom: 3.938rem;
+}
+
+.iconTwitter{
+    color: white;
+}
+span{
+    font-size: 1.813rem;
+    font-family: 'League Gothic';
+    padding-top: 2.5rem;
+}
+footer{
+    height: 10.938rem;
+    background-color: #e4bc01;
+}
+footer p{
+    font-size: 1.188rem;
+}
+footer a{
+    border-radius: 50% !important ;
+    color :  #e4bc01 ;
+    background-color:white;
+
+
+    width: 1.93rem;
+    height: 1.93rem;
+}
+footer a i{
+    margin: 0.25rem;
 }
